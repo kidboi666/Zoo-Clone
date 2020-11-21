@@ -1,0 +1,161 @@
+body {
+font-family: "Union-Regular",Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.header__wrapper {
+  width: 100%;
+  height: 48px;
+  background: #fff;
+  display: flex;
+  font-size: 32px;
+  position: fixed;
+}
+.main__header {
+  display: flex;
+  width: 66.6%;
+  cursor: pointer;
+}
+.main__header .logo {
+  width: 15%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.main__header .logo h1 {
+  padding-left: 10px;
+}
+.main__header ul {
+  display: flex;
+  align-items: center;
+}
+.main__header ul li {
+  margin-right: 50px;
+  color: #E0E1E2;
+}
+.main__header:hover {
+  background: #E0E1E2;
+}
+.main__header:hover ul li {
+  color: #fff;
+}
+.main__header .logo:hover {
+  color: #fff;
+}
+.main__header .logo:hover + ul li {
+  color: #000;
+}
+.close__button2 {
+  display: none;
+}
+
+
+.section__pannel {
+  width: 66.6%;
+  height: 100%;
+  background: #E0E1E2;
+  position: fixed;
+  display: none;
+}
+.section__pannel.active {
+  overflow-y: scroll;
+  display: block;
+}
+.close__button {
+  padding: 10px 10px 0 0;
+  font-size: 30px;
+  position: absolute;
+  right:0;
+  cursor: pointer;
+}
+.close__button .xBtn {
+  transition: .3s;
+}
+.close__button:hover .xBtn {
+  transform: rotate(90deg);
+}
+.close__button.active .section__pannel {
+  display: none;
+}
+.close__button2.active .section__pannel {
+  display: none;
+}
+.section {
+  padding: 10px 10px 50px 10px;
+  display: flex;
+  overflow: hidden;
+  border-bottom: 1px solid black;
+}
+.section h1 {
+  font-size: 32px;
+  width: 18%;
+}
+.section p {
+  width: 65%;
+  font-size: 14px;
+}
+.section li {
+  font-size: 14px;
+}
+.left__section {
+  width: 35%;
+}
+.clients__wrap p:first-child {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.clients__wrap p:not(:first-child) {
+  text-transform: uppercase;
+  margin: 15px 0;
+}
+.credits__wrap div:last-child {
+  width: 40%;
+}
+
+.sub__header {
+  display: flex;
+  width: 33.3%;
+  cursor: pointer;
+}
+.sub__header ul {
+  padding-left: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.sub__header ul li {
+  margin-right: 50px;
+}
+.sub__header ul .language__toggle {
+  font-size: 15px;
+  display: flex;
+  justify-items: end;
+}
+.sub__header span {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  font-size: 15px;
+}
+.sub__header:hover {
+  background:#E0E1E2;
+}
+
+
+.main__wrapper {
+  padding-top: 48px;
+  width: 100%;
+}
+.main__wrapper .first__row {
+  display: grid;
+  grid-template-columns: repeat(3, 33.3%);
+}
+.article__sub {
+  display: block;
+  text-transform: uppercase;
+  margin-left: 10px;
+  font-size: 15px;
+  height: 32px;
+  line-height: 32px;
+}
+.article__wrap .img img{
+  width: 100%;
+}

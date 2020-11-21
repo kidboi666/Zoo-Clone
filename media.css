@@ -1,0 +1,61 @@
+@media screen and (max-width: 899px) {
+  .header__wrapper {
+    font-size: 24px;
+  }
+  .main__header {
+    position: relative;
+    width: 50%;
+  }
+  .main__header .close__button2 {
+    display: block;
+    position: absolute;
+    right:10px;
+    top: 10px;
+  }
+  .main__header .close__button2 .xBtn {
+    transition: .3s;
+  }
+  .main__header .close__button2:hover .xBtn {
+    transform: rotate(90deg);
+  }
+  .main__header ul {
+    display: none;
+  }
+  .sub__header {
+    width: 50%;
+  }
+  .sub__header ul li:first-child {
+    display: none;
+  }
+
+  .section__pannel {
+    width: 100%;
+    margin-top: 48px;
+  }
+  .section__pannel .close__button {
+    display: none;
+  }
+  .zoo__wrap .zoo {
+    display: none;
+  }
+  .zoo__wrap p {
+    width: 100%;
+  }
+
+  .section h1 {
+    width: 30%;
+  }
+  .section p,
+  .section li {
+    width: 70%;
+  }
+
+
+  .main__wrapper .first__row {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+  .article__sub {
+    font-size: 12px;
+  }
+}
